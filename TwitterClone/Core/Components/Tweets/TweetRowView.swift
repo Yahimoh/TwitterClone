@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TweetRowView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             // Profile image + user info + tweet
             HStack(alignment: .top, spacing: 12) {
                 Circle()
@@ -38,6 +38,44 @@ struct TweetRowView: View {
                     
                 }
             }
+            // Tweet action buttons
+            
+            HStack {
+                Button {
+                } label: {
+                    Image(systemName: "bubble.left")
+                        .font(.subheadline)
+                }
+                
+                Spacer()
+                
+                Button {
+                } label: {
+                    Image(systemName: "arrow.2.squarepath")
+                        .font(.subheadline)
+                }
+                
+                Spacer()
+                
+                Button {
+                } label: {
+                    Image(systemName: "heart")
+                        .font(.subheadline)
+                }
+                
+                Spacer()
+                
+                Button {
+                } label: {
+                    Image(systemName: "bookmark")
+                        .font(.subheadline)
+                }
+
+            }
+            .padding()
+            .foregroundColor(.gray)
+            
+            Divider()
         }
     }
 }

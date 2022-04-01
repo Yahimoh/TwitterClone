@@ -13,6 +13,7 @@
 		0042BA5F27F76259005B18B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0042BA5E27F76259005B18B0 /* Preview Assets.xcassets */; };
 		0042BA7227F764C7005B18B0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042BA7127F764C7005B18B0 /* FeedView.swift */; };
 		0042BA7527F76626005B18B0 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042BA7427F76626005B18B0 /* TweetRowView.swift */; };
+		0042BA7827F7727C005B18B0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042BA7727F7727C005B18B0 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0042BA5E27F76259005B18B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0042BA7127F764C7005B18B0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		0042BA7427F76626005B18B0 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
+		0042BA7727F7727C005B18B0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				0042BA6D27F7644D005B18B0 /* Components */,
+				0042BA7C27F775BF005B18B0 /* Profile */,
+				0042BA7B27F775B3005B18B0 /* Messages */,
+				0042BA7A27F775AC005B18B0 /* Notifications */,
+				0042BA7927F77591005B18B0 /* Explore */,
+				0042BA7627F7723E005B18B0 /* MainTab */,
 				0042BA6E27F7645D005B18B0 /* Feed */,
 			);
 			path = Core;
@@ -143,6 +150,42 @@
 				0042BA7427F76626005B18B0 /* TweetRowView.swift */,
 			);
 			path = Tweets;
+			sourceTree = "<group>";
+		};
+		0042BA7627F7723E005B18B0 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				0042BA7727F7727C005B18B0 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		0042BA7927F77591005B18B0 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		0042BA7A27F775AC005B18B0 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		0042BA7B27F775B3005B18B0 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		0042BA7C27F775BF005B18B0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +262,7 @@
 				0042BA7527F76626005B18B0 /* TweetRowView.swift in Sources */,
 				0042BA7227F764C7005B18B0 /* FeedView.swift in Sources */,
 				0042BA5827F76258005B18B0 /* TwitterCloneApp.swift in Sources */,
+				0042BA7827F7727C005B18B0 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
