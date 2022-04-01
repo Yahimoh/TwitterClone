@@ -51,6 +51,8 @@
 		0042BA5627F76258005B18B0 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				0042BA6927F7634A005B18B0 /* Service */,
+				0042BA6827F762A2005B18B0 /* Extensions */,
 				0042BA5727F76258005B18B0 /* TwitterCloneApp.swift */,
 				0042BA5927F76258005B18B0 /* ContentView.swift */,
 				0042BA5B27F76259005B18B0 /* Assets.xcassets */,
@@ -65,6 +67,20 @@
 				0042BA5E27F76259005B18B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0042BA6827F762A2005B18B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0042BA6927F7634A005B18B0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
