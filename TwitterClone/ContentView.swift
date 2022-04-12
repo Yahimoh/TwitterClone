@@ -44,6 +44,8 @@ struct ContentView: View {
                         .frame(width: 32, height: 32)
                 }
             }
+        }.onAppear {
+            showMenu = false
         }
     }
 }
