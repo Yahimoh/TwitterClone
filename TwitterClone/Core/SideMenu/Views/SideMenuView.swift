@@ -37,7 +37,11 @@ struct SideMenuView: View {
                         SideMenuOptionRowView(viewModel: viewModel)
                     }
                 } else if viewModel == .logout {
-                    
+                    Button {
+                        print("Logged out")
+                    } label: {
+                        SideMenuOptionRowView(viewModel: viewModel)
+                    }
                 } else {
                     SideMenuOptionRowView(viewModel: viewModel)
                 }
